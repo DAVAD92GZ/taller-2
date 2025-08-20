@@ -1,0 +1,11 @@
+id,name,brand
+1,McClaren MP4/4,LEGO
+2,R2D2,LEGO
+3,Pikachu,Bricks
+4,Harry Potter Hippogriff,LEGO
+5,SSJ Goku, Bandai Namco
+6,Charmander,Bricks
+7,The One Ring,Warner Bros
+8,LSW Lightsaber, Neosaber
+9,One Piece 1,Bandai Namco
+10,OBK Lightsaber, Neosaber

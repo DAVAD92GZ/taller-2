@@ -53,7 +53,8 @@ public class Runner {
 					System.out.println("Enter brand:\n");
 					String brand = br.readLine();
 					// TODO: Create and add a NEW collectable to the list
-					Collectable newFigure = new Collectable(id, name, brand);
+					int parsedId = Integer.parseInt(id.trim());
+					Collectable newFigure = new Collectable(parsedId,name,brand);
 					figures.add(newFigure);
 
 					System.out.println("New figure added!");
@@ -186,7 +187,7 @@ public class Runner {
 			 * id, name, brand
 			 * HINT: .split return an array, NOT AN ARRAYLIST, AN ARRAY
 			 */
-			BufferedReader br1 = new BufferedReader(new FileReader(new File("data/figures.txt")));
+			BufferedReader br1 = new BufferedReader(new FileReader(new File("act03//data//figures.txt")));
 			// TODO: Read entire file, add figures to list
 			String row = br1.readLine(); //id,name,brand
 			
